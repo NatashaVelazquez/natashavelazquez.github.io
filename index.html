@@ -10,13 +10,15 @@
     <!-- Titulo -->
     <title>Natasha Velazquez | Desarrollo Web Front-End</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <link rel="icon" type="image/x-icon" href="imagenes/codigo-binario.png">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Iconos de Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link href="style.css" rel="stylesheet">
     <!-- Google Fonts -->
@@ -26,7 +28,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Pacifico&display=swap" rel="stylesheet">
- 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Playpen+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Barra de navegacion -->
@@ -37,7 +44,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-toggler">
           <a class="navbar-brand" href="#">
-            <img src="imagenes/liberar.png" width="50" alt="Logo de la página web">
+            <img src="imagenes/unicornio.png" width="50" alt="Logo de la página web">
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
@@ -61,7 +68,7 @@
     <section class="hero align-items-stretch">
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/mifoto.jpg" alt="Foto de Natasha Velazquez">
-        <h1>Hola soy Natasha Velazquez</h1>
+        <h1>Hola, soy Natasha Velazquez</h1>
         <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
 
         <!--Animación con JavaScript-->
@@ -76,7 +83,7 @@
     <!-- Sobre mi -->
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
       <div class="contenedor">
-        <h2 class="seccion-titulo">Conoce a Natasha Velazquez</h2>
+        <h2 class="seccion-titulo">Conoces a Natasha Velazquez</h2>
         <p class="seccion-texto">Hola soy Natasha Velazquez,Ingeniera en sistemas computacionales con un apasionado enfoque en la programación frontend. Mi amor por la tecnología y el diseño se fusionan en mi trabajo diario, donde combino mis habilidades técnicas con mi creatividad para crear experiencias web atractivas y funcionales. Como programadora frontend junior, disfruto de la emocionante tarea de transformar ideas en realidad digital, diseñando páginas web que no solo son visualmente impactantes, sino también eficientes y fáciles de usar.
 
           Mi mayor satisfacción radica en ayudar a las personas a dar vida a sus visiones en línea. Colaborar estrechamente con empresarios y emprendedores para diseñar y desarrollar sitios web que reflejen sus marcas y objetivos comerciales es una de mis pasiones. Creo firmemente en la importancia de la presencia en línea en el mundo actual y estoy comprometida en empoderar a las personas a través de la tecnología, brindándoles las herramientas necesarias para tener éxito en la web.
@@ -91,9 +98,13 @@
         <div class="row">
           <!-- Desarrollo Web -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
+            <i>
+              <img class="hero-inferior-imagen img-fluid" src="imagenes/desarrollo-web.png"  width="100" alt="web">
+            </i>
             <p class="experiencia-titulo">Desarrollo Web</p>
-            <p>Desarrollar aplicaciones web con HTML, CSS, JavaScript y Python implica aprovechar un conjunto de tecnologías esenciales para crear sitios y aplicaciones web dinámicos y funcionales</p>
+            <p> Diseñe y desarrollé paginas web atractivas y funcional para una pasteleria y una simulacion Google Chrome usando tecnología para el dearrollo web HTML,CSS y JavaScript.
+              Por otra lado,desarrollé una simulación de un micontrolador ESP32 para mantener la distancia o espacio entre las personas para ayudar a prevenir la propagacion de la enfermedad y un sistema de inventario de libros  Django y SQLite3 con Python.
+            </p>
             <div class="badges-contenedor">
               <span class="badge">HTML</span>
               <span class="badge">CSS</span>
@@ -103,24 +114,31 @@
           </div>
           <!-- Articulos -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-book"></i>
-            <p class="experiencia-titulo">Artículos</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eos vel, fugiat quos amet unde similique eum perspiciatis, optio expedita id neque excepturi sunt. Debitis optio magni error recusandae quasi.</p>
+            <i>
+              <img class="hero-inferior-imagen img-fluid" src="imagenes/experiencia.png"  width="100" alt="experiencia">
+            </i>
+            <p class="experiencia-titulo">Experiencia Laboral</p>
+             
+              <li>Desarrolle un proyecto de una aplicación móvil Front-End para la empresa Scorp System,con el objetivo de realizar una reingeniería de la aplicación actual,aplicando la metodología de desarrollo ágil Kanban con el fin de usar herramientas de software que ayudan a gestionar las tareas y el trabajo en equipo.</li>
+              <li>Participación en la Exposición de Proyectos Vinculados con el Sector que se llevaron a cabo el día 29 de mayo del 2023 en el Instituto Tecnológico de Tuxtla Gutiérrez</li>
+            </p>
             <div class="badges-contenedor">
-              <span class="badge">Escribir</span>
-              <span class="badge">Editar</span>
-              <span class="badge">Blogs</span>
+              <span class="badge">Diseño UI/UX</span>
+              <span class="badge">Metologia Kamban</span>
+              <span class="badge">Desarrollo aplicacion movil</span>
             </div>
           </div>
           <!-- Estudiante -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-backpack3"></i>
+            <i>
+              <img class="hero-inferior-imagen img-fluid" src="imagenes/educacion-en-linea.png"  width="100" alt="Estudiante">
+            </i>
             <p class="experiencia-titulo">Estudiante</p>
-            <p>La enseñanza de desarrollo web y Python es una tarea apasionante que puede abrir un mundo de oportunidades a los estudiantes. El desarrollo web es esencial en la era digital, y Python es un lenguaje versátil ampliamente utilizado en la programación.</p>
+            <p>Estudie Ingenieria en Sistemas Computacionales en el Instituto Tecnologico de Tuxtla Gutierrez,me apasionaba las materias relacionadas con la programacion web,programacion orientada a objetos,ingenieria de software,la gestion de proyectos de software y los frameworks</p>
             <div class="badges-contenedor">
-              <span class="badge">Tecnolochicas PRO</span>
-              <span class="badge">Desarrollo Web</span>
-              <span class="badge">Python</span>
+              <span class="badge">Programacion</span>
+              <span class="badge">Desarrollo de software</span>
+              <span class="badge">Gestion de proyecto de TI</span>
             </div>
           </div>
         </div>
@@ -142,9 +160,6 @@
                 <p>Proyecto 1</p>
                 <div class="iconos-contenedor">
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
                   </a>
                 </div>
@@ -159,9 +174,6 @@
                 <p>Proyecto 2</p>
                 <div class="iconos-contenedor">
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
                   </a>
                 </div>
@@ -175,9 +187,6 @@
               <div class="overlay">
                 <p>Proyecto 3</p>
                 <div class="iconos-contenedor">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
                   <a href="#/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
                   </a>
@@ -195,9 +204,6 @@
                   <a href="https://github.com/NatashaVelazquez/clon-google" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -209,9 +215,6 @@
               <div class="overlay">
                 <p>Proyecto 5</p>
                 <div class="iconos-contenedor">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
                   </a>
@@ -229,16 +232,13 @@
                   <a href="https://drive.google.com/file/d/1Wj-oxtFoYKufWcMfhqIk5LqyaUkNAEYC/view" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-google"></i>
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
-                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/NatashaVelazquez" target="_blank" rel="noopener noreferrer">
         <button type="button" class="btn btn-info">
           Ver más proyectos
           <i class="bi bi-arrow-right-circle-fill"></i>
@@ -256,31 +256,31 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
-              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <img class="testimonio-imagen rounded-circle" src="imagenes/AnelMontes.jpg" alt="Foto de Anel">
+              <p class="testimonio-texto">Anel muestra un rápido progreso en la adquisición de habilidades técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Anel seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el futuro.</p>
               <div class="testimonio-info">
-                <p class="cliente">Gino</p>
-                <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                <p class="cliente">Anel Montes de Oca Robles</p>
+                <p class="cargo"> Mentora TECNOLOchicas</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
-              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <img class="testimonio-imagen rounded-circle" src="imagenes/KaryBh_Cabral.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">KaryBh a adquirido y mostrado habilidades técnicas,  una gran disposición para colaborar en proyectos. y Sus cualidades valiosas en el campo de la programación y como excelente compañera . No tengo dudas de que KaryBh seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el futuro.</p>
               <div class="testimonio-info">
-                <p class="cliente">Nora</p>
-                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+                <p class="cliente">KaryBh Cabral</p>
+                <p class="cargo">Compañera en Bootcam Tecnolochicas Pro</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
-              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Moni-foto.jpg" alt="Foto de Monica">
+              <p class="testimonio-texto">El compromiso y responsabilidad son solo algunas de las habilidades que Monica, posee. Sin duda alguna la toma de riesgos y responsabilidades ha caracterizado al colaborador diariamente, he sido apoyo y complice del crecimeinto profesional y personal permitiendome así acompañar y compartir expriencias para la mejora continua.</p>
               <div class="testimonio-info">
-                <p class="cliente">Leonardo</p>
-                <p class="cargo">Director de AprendeAProgramar</p>
+                <p class="cliente">Monica Díaz</p>
+                <p class="cargo">Compañera en Bootcam Tecnolochicas Pro</p>
               </div>
             </div>
           </div>
@@ -322,7 +322,7 @@
     
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
-      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio" >
+      <img class="footer-logo" src="imagenes/unicornio.png" alt="Logo del portafolio" >
       <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <a href="#" target="_blank" rel="noopener noreferrer">

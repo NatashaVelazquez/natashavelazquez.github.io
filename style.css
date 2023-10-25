@@ -3,12 +3,17 @@
 .navbar {
   padding: 2rem;
   background-color: #e872f1;
+  font-family: 'DM Serif Text', serif;
+  color: #000000;
+  font-size: 20px;
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
 }
+
+
 
 /* Estilos generales */
 
@@ -37,17 +42,19 @@ h1 {
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'DM Serif Text', serif;
   color: #000;
 }
 
 .seccion-descripcion {
   font-size: 1.2rem;
   color: #584e4e;
+  font-family: 'Playpen Sans', cursive;
 }
 
 .seccion-texto {
   font-size: 20px;
+
 }
 
 .btn-info {
@@ -55,10 +62,15 @@ h1 {
   margin: 20px;
   background-color: #bd62b9;
   border-color: #000000;
+  font-family: 'Quicksand', sans-serif;
 }
+
+
+
 
 .texto-negro {
   color: black;
+  
 }
 
 .texto-blanco {
@@ -86,6 +98,7 @@ h1 {
 .hero-principal h2 {
   font-size: 1.5rem;
   color: #615151;
+  font-family: 'Playpen Sans', cursive;
 }
 
 /* Sobre mi */
@@ -99,6 +112,7 @@ h1 {
   max-width: 600px;
   text-align: center;
   color: #000;
+  font-family: 'Playpen Sans', cursive;
 }
 
 /* Experiencia */
@@ -115,6 +129,7 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  font-family: 'Playpen Sans', cursive;
 }
 
 .badges-contenedor .badge{
@@ -138,6 +153,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
+  font-family: 'DM Serif Text', serif;
 }
 
 .badges-contenedor {
@@ -213,6 +229,7 @@ h1 {
 
 .testimonios {
   padding: 40px 40px 80px 40px;
+  
 }
 
 .testimonios .carousel {
@@ -282,12 +299,16 @@ h1 {
   width: 100%;
   display: flex;
   align-items: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .contacto .descripcion {
   color: rgb(0, 0, 0);
   font-size: 1.2rem;
+  font-family: 'Playpen Sans', cursive;
+
 }
+
 
 .contacto button {
   color: rgb(0, 0, 0);
@@ -301,7 +322,7 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
+  background-color: #fbb9f4;
   color: black;
 }
 
@@ -361,7 +382,7 @@ footer {
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color:#fbb9f4;
 }
 
 .derechos-de-autor {
